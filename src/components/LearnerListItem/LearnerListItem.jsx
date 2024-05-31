@@ -1,9 +1,10 @@
 import PropTypes from 'prop-types';
 import Score from '../Score/Score';
+import '../../App.css';
 
 function LearnerListItem({ learner }) {
   return (
-    <div>
+    <div className="LearnerListItem">
       <h3>Name: {learner.name}</h3>
       <p>Bio: {learner.bio}</p>
       <h4>Scores:</h4>

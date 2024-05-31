@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  .LearnerList {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .LearnerListItem {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+  }
+  
+  .LearnerListItem:last-child {
+    border-bottom: none;
+  }
+  
+  .LearnerListItem h3 {
+    margin: 0;
+    color: #007acc;
+  }
+  
+  .LearnerListItem p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .Score {
+    background-color: #e9ecef;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+  }
+  
+  .Score p {
+    margin: 5px 0;
+    color: #333;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #555;
+    margin-top: 20px;
+  }
+  
+  h4 {
+    margin: 10px 0 5px;
+    color: #666;
+  }
+  
+  @media (max-width: 768px) {
+    .LearnerList {
+      width: 95%;
+    }
+  }
+  

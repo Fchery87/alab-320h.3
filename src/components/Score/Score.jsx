@@ -1,8 +1,9 @@
 import PropTypes from 'prop-types';
+import '../../App.css';
 
 function Score({ score }) {
   return (
-    <div>
+    <div className="Score">
       <p>Date: {score.date}</p>
       <p>Score: {score.score}</p>
     </div>

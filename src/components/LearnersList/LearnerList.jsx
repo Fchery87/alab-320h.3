@@ -1,9 +1,10 @@
 import PropTypes from 'prop-types';
 import LearnerListItem from '../LearnerListItem/LearnerListItem';
+import '../../App.css';
 
 function LearnerList({ learners }) {
   return (
-    <div>
+    <div className="LearnerList">
       <h2>Learners List</h2>
       {learners.map((item, index) => (
         <LearnerListItem learner={item} key={index} />

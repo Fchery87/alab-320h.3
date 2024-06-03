@@ -6,7 +6,7 @@ function LearnerListItem({ learner }) {
   return (
     <div className="LearnerListItem">
       <h3>Name: {learner.name}</h3>
-      <p>Bio: {learner.bio}</p>
+      <p> <strong>Bio:</strong> {learner.bio}</p>
       <h4>Scores:</h4>
       {learner.scores.map((score, index) => (
         <Score score={score} key={index} />

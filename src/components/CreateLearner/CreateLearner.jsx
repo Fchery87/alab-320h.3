@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 function CreateLearner({ addLearner }) {
     
     const newLearner =   {
@@ -25,5 +27,9 @@ function CreateLearner({ addLearner }) {
     </div>
     );
   }
+
+  CreateLearner.propTypes = {
+    addLearner: PropTypes.func.isRequired,
+  };
   
   export default CreateLearner;
